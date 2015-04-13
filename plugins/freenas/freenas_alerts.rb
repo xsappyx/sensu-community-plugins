@@ -100,9 +100,8 @@ class FreenasAlertCheck < Sensu::Plugin::Check::CLI
             when 'WARN'
               level = 'WARN' if level != 'CRIT'
             when 'OK'
-                level = 'OK' if level != 'CRIT' || level != 'WARN'
+              level = 'OK' if level != 'CRIT' || level != 'WARN'
             end
-
           elsif k.to_s == 'message' 
             msg += "\"#{json['message']}\""
           end
