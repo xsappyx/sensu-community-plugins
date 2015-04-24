@@ -5,6 +5,8 @@
 # DESCRIPTION:
 #   Check health of FreeNAS alerts
 #
+#   This plugin is based on the uchiwa-health.rb check by Grant Heffernan
+#
 # OUTPUT:
 #   plain text
 #
@@ -24,6 +26,7 @@
 #
 # LICENSE:
 #   Copyright 2014 Grant Heffernan <grant@mapzen.com>
+#   Copyright 2015 Matthew Snyder <xsappyx@gmail.com>
 #   Released under the same terms as Sensu (the MIT license); see LICENSE
 #   for details.
 #
